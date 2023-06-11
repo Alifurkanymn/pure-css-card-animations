@@ -21,10 +21,10 @@
     height: 200px;
     border-radius: 50%;
     background-color: red;
-    -webkit-transition: .3s linear;
-    -moz-transition: .3s linear;
-    -o-transition: .3s linear;
-    transition: .3s linear;
+    -webkit-transition: .5s linear;
+    -moz-transition: .5s linear;
+    -o-transition: .5s linear;
+    transition: .5s linear;
 }
 
 .card-content{
@@ -38,6 +38,7 @@
 
 .card-content img{
     max-height: 300px;
+    transition: .8s all;
 }
 
 .card-content-text{
@@ -86,6 +87,7 @@
     background-color: blue;
     padding: 20px 40px 20px 60px;
     border-radius: 1rem;
+    transition: .3s all;
 }
 
 .card:hover .card-content img{
